@@ -38,5 +38,10 @@ Ext.define('Traccar.store.CommonDeviceAttributes', {
         name: Strings.attributeMaintenanceInterval,
         valueType: 'number',
         dataType: 'distance'
+    }, {
+        key: 'ignitionDuringPausePercent',
+        name: Strings.attributeIgnitionDuringPausePercent,
+        valueType: 'number',
+        dataType: 'percentage'
     }]
 });
